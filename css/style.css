@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.galary img:hover, .blog img:hover{
+    transform: scale(1.1);
+    transition: .4s all ease-in-out;
+    border: 2px solid black;
+}
+
+header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo{
+    width: 20%;
+}
+.unsubscribe{
+    width: 20%;
+    text-align: right;
+}
+.unsubscribe p{
+    font-size: 14px;
+    color: #97999b;
+}
+
+.banner-section{
+  width: 100%;
+  height: 100vh;
+  background: url(../images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+
+.banner h1{
+    color: #FFFFFF;
+    font-size: 32px;
+}
+.banner p{
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 20px 0 50px 0;
+}
+.banner button{
+    color: #FFFFFF;
+    background-color: #FB6E52;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 15px 40px;
+    font-size: 15px;
+    font-weight: normal;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+button:hover{
+    background-color: #e13b1a;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+button:hover i{
+    margin-left: 5px;
+}
+.banner button i{
+    transition: .3s all ease-in-out;
+}
+
+.our-service{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.service{
+    width: 30%;
+    text-align: center;
+}
+.service a i{
+    background-color: #FB6E52;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+.service h3{
+    padding-bottom: 10px;
+    color: #292c34;
+}
+.service p{
+    color: #97999b;
+    font-weight: 300;
+}
+
+.quote{
+    width: 60%;
+    margin: auto;
+    color: #fb6e52;
+    font-style: italic;
+    font-size: 28px;
+    text-align: center;
+    padding: 50px 0 70px 0;
+}
+
+.image-galary{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.galary{
+    width: 30%;
+    text-align: center;
+}
+.galary img{
+    width: 100%;
+}
+.galary h3{
+    color: #292c34;
+    font-weight:normal;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.galary h6{
+    color: #97999b;
+    font-weight: 300;
+    font-size: 14px;
+    padding-bottom: 80px;
+}
+
+.blog-section{
+    background-color: #f9f9f9;
+}
+.blog-section h1{
+    color: #292c34;
+    font-weight: normal;
+    text-align: center;
+    padding: 50px 0;
+}
+.blog-area{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.blog{
+    width: 48%;
+}
+.blog img{
+    width: 100%;
+}
+.blog h3{
+    color: #fb6e52;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.blog p{
+    color: #97999b;
+    font-weight: 300;
+    padding-bottom: 80px;
+}
+
+.footer-section{
+    background-color: #292C34;
+}
+footer{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-left ul li{
+    color: #797c82;
+    font-weight: 300;
+    font-size: 14px;
+    padding-right: 20px;
+}
+
+.footer-right{
+    display: flex;
+}
+.footer-right ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-right ul li{
+    padding-left: 40px;
+}
+.footer-right ul li a{
+    color: white;
+}
